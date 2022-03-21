@@ -247,6 +247,11 @@ func (in *OpsGenieConfig) DeepCopyInto(out *OpsGenieConfig) {
 		*out = new(bool)
 		**out = **in
 	}
+	if in.UpdateAlert != nil {
+		in, out := &in.UpdateAlert, &out.UpdateAlert
+		*out = new(bool)
+		**out = **in
+	}
 	if in.APIKey != nil {
 		in, out := &in.APIKey, &out.APIKey
 		*out = new(corev1.SecretKeySelector)
