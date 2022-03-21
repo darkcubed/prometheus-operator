@@ -1115,6 +1115,7 @@ OpsGenieConfig configures notifications via OpsGenie. See https://prometheus.io/
 | Field | Description | Scheme | Required |
 | ----- | ----------- | ------ | -------- |
 | sendResolved | Whether or not to notify about resolved alerts. | *bool | false |
+| updateAlert | Whether or not to send updated alerts. | *bool | false |
 | apiKey | The secret's key that contains the OpsGenie API key. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator. | *[v1.SecretKeySelector](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.17/#secretkeyselector-v1-core) | false |
 | apiURL | The URL to send OpsGenie API requests to. | string | false |
 | message | Alert text limited to 130 characters. | string | false |

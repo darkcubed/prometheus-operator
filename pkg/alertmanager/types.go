@@ -148,6 +148,7 @@ type weChatConfig struct {
 	Message       string            `yaml:"message,omitempty" json:"message,omitempty"`
 	MessageType   string            `yaml:"message_type,omitempty" json:"message_type,omitempty"`
 	HTTPConfig    *httpClientConfig `yaml:"http_config,omitempty" json:"http_config,omitempty"`
+        VUpdateAlert  *bool             `yaml:"update_alert,omitempty" json:"update_alert,omitempty"`
 }
 
 type slackConfig struct {

@@ -469,6 +469,7 @@ func (cg *configGenerator) convertOpsgenieConfig(ctx context.Context, in monitor
 		Tags:          in.Tags,
 		Note:          in.Note,
 		Priority:      in.Priority,
+                VUpdateAlert:  in.UpdateAlert,
 	}
 
 	if in.APIKey != nil {

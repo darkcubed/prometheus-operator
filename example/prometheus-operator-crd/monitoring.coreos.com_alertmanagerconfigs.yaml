@@ -502,6 +502,9 @@ spec:
                           tags:
                             description: Comma separated list of tags attached to the notifications.
                             type: string
+                          updateAlert:
+                            description: Whether or not to send updated alerts.
+                            type: boolean
                         type: object
                       type: array
                     pagerdutyConfigs:
