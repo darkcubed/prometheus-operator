@@ -451,7 +451,7 @@ type OpsGenieConfig struct {
 	HTTPConfig *HTTPConfig `json:"httpConfig,omitempty"`
 	// Whether or not to send updated alerts.
 	// +optional
-	UpdateAlert *bool `json:"updateAlert,omitempty"`
+	UpdateAlerts *bool `json:"updateAlerts,omitempty"`
 }
 
 // Validate ensures OpsGenieConfig is valid

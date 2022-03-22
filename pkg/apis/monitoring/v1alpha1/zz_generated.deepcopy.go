@@ -247,8 +247,8 @@ func (in *OpsGenieConfig) DeepCopyInto(out *OpsGenieConfig) {
 		*out = new(bool)
 		**out = **in
 	}
-	if in.UpdateAlert != nil {
-		in, out := &in.UpdateAlert, &out.UpdateAlert
+	if in.UpdateAlerts != nil {
+		in, out := &in.UpdateAlerts, &out.UpdateAlerts
 		*out = new(bool)
 		**out = **in
 	}
