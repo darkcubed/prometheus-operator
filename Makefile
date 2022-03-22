@@ -9,7 +9,7 @@ else
 endif
 
 GO_PKG=github.com/prometheus-operator/prometheus-operator
-REPO?=quay.io/prometheus-operator/prometheus-operator
+REPO?=078306444420.dkr.ecr.us-east-2.amazonaws.com/darkcubed/infrastructure/prometheus-operator
 REPO_PROMETHEUS_CONFIG_RELOADER?=quay.io/prometheus-operator/prometheus-config-reloader
 REPO_PROMETHEUS_OPERATOR_LINT?=quay.io/prometheus-operator/prometheus-operator-lint
 TAG?=$(shell git rev-parse --short HEAD)
