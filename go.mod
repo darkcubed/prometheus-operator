@@ -9,7 +9,7 @@ require (
 	github.com/evanphx/json-patch/v5 v5.2.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-kit/kit v0.10.0
-	github.com/go-openapi/swag v0.19.15
+	github.com/go-openapi/swag v0.21.1
 	github.com/gogo/protobuf v1.3.2
 	github.com/google/go-cmp v0.5.5
 	github.com/hashicorp/go-version v1.3.0
@@ -20,9 +20,9 @@ require (
 	github.com/prometheus-community/prom-label-proxy v0.2.0
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.48.1
 	github.com/prometheus-operator/prometheus-operator/pkg/client v0.48.1
-	github.com/prometheus/alertmanager v0.21.1-0.20210422101724-8176f78a70e1
-	github.com/prometheus/client_golang v1.10.0
-	github.com/prometheus/common v0.21.0
+	github.com/prometheus/alertmanager v0.24.0-rc.0
+	github.com/prometheus/client_golang v1.12.1
+	github.com/prometheus/common v0.32.1
 	github.com/prometheus/prometheus v1.8.2-0.20210421143221-52df5ef7a3be
 	github.com/stretchr/testify v1.7.0
 	github.com/thanos-io/thanos v0.20.1
@@ -38,6 +38,7 @@ require (
 	k8s.io/klog v1.0.0
 	k8s.io/klog/v2 v2.8.0
 	k8s.io/utils v0.0.0-20210305010621-2afb4311ab10
+	sigs.k8s.io/structured-merge-diff/v4 v4.1.0 // indirect
 )
 
 replace (
